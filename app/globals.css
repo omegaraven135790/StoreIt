@@ -1,8 +1,14 @@
 @import "tailwindcss";
+@import "tw-animate-css";
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
+}
+
+@theme {
+  --color-brand-color: #FA7275;
+  --color-brand-100: #EA6365;
 }
 
 @theme inline {
